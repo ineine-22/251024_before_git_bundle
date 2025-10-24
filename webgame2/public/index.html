@@ -1,0 +1,35 @@
+<!--index.html-->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google" content="notranslate">
+    <script src="/socket.io/socket.io.js"></script>
+
+    <title>The insectbug</title>
+    <style>
+        canvas {
+            background: #FFFFFF;
+            display: block;
+            margin: 0 auto;
+            border: 2px solid #000000;
+        }
+
+        body {
+            text-align: center;
+            background-color: #FFFFFF;
+            color: #000000;
+        }
+
+    </style>
+</head>
+
+
+<body>
+    <h1>The insectbug</h1>
+    <canvas id="gameCanvas" width="1200" height="500"></canvas>
+    <h1 id="info">Loading...</h1>
+    <script src="client.js"></script>
+</body>
+</html>
